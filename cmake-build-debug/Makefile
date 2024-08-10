@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion II\repaso-francisca-falco"
+CMAKE_SOURCE_DIR = "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion 3\REPASO"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion II\repaso-francisca-falco\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion 3\REPASO\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion II\repaso-francisca-falco\cmake-build-debug\CMakeFiles" "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion II\repaso-francisca-falco\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion 3\REPASO\cmake-build-debug\CMakeFiles" "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion 3\REPASO\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion II\repaso-francisca-falco\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion 3\REPASO\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,19 @@ Ej3: cmake_check_build_system
 Ej3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej3.dir\build.make CMakeFiles/Ej3.dir/build
 .PHONY : Ej3/fast
+
+#=============================================================================
+# Target rules for targets named Ej4
+
+# Build rule for target.
+Ej4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ej4
+.PHONY : Ej4
+
+# fast build rule for target.
+Ej4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej4.dir\build.make CMakeFiles/Ej4.dir/build
+.PHONY : Ej4/fast
 
 Ej1.obj: Ej1.cpp.obj
 .PHONY : Ej1.obj
@@ -226,6 +239,30 @@ Ej3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej3.dir\build.make CMakeFiles/Ej3.dir/Ej3.cpp.s
 .PHONY : Ej3.cpp.s
 
+Ej4.obj: Ej4.cpp.obj
+.PHONY : Ej4.obj
+
+# target to build an object file
+Ej4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej4.dir\build.make CMakeFiles/Ej4.dir/Ej4.cpp.obj
+.PHONY : Ej4.cpp.obj
+
+Ej4.i: Ej4.cpp.i
+.PHONY : Ej4.i
+
+# target to preprocess a source file
+Ej4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej4.dir\build.make CMakeFiles/Ej4.dir/Ej4.cpp.i
+.PHONY : Ej4.cpp.i
+
+Ej4.s: Ej4.cpp.s
+.PHONY : Ej4.s
+
+# target to generate assembly for a file
+Ej4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej4.dir\build.make CMakeFiles/Ej4.dir/Ej4.cpp.s
+.PHONY : Ej4.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -237,6 +274,7 @@ help:
 	@echo ... Ej1
 	@echo ... Ej2
 	@echo ... Ej3
+	@echo ... Ej4
 	@echo ... Ej1.obj
 	@echo ... Ej1.i
 	@echo ... Ej1.s
@@ -246,6 +284,9 @@ help:
 	@echo ... Ej3.obj
 	@echo ... Ej3.i
 	@echo ... Ej3.s
+	@echo ... Ej4.obj
+	@echo ... Ej4.i
+	@echo ... Ej4.s
 .PHONY : help
 
 
