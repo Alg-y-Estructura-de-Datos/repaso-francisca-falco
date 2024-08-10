@@ -67,6 +67,7 @@ all: CMakeFiles/Ej2.dir/all
 all: CMakeFiles/Ej3.dir/all
 all: CMakeFiles/Ej4.dir/all
 all: CMakeFiles/Ej5_main.dir/all
+all: CMakeFiles/Ej6_main.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,6 +80,7 @@ clean: CMakeFiles/Ej2.dir/clean
 clean: CMakeFiles/Ej3.dir/clean
 clean: CMakeFiles/Ej4.dir/clean
 clean: CMakeFiles/Ej5_main.dir/clean
+clean: CMakeFiles/Ej6_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -210,6 +212,32 @@ Ej5_main: CMakeFiles/Ej5_main.dir/rule
 CMakeFiles/Ej5_main.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej5_main.dir\build.make CMakeFiles/Ej5_main.dir/clean
 .PHONY : CMakeFiles/Ej5_main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ej6_main.dir
+
+# All Build rule for target.
+CMakeFiles/Ej6_main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej6_main.dir\build.make CMakeFiles/Ej6_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej6_main.dir\build.make CMakeFiles/Ej6_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion 3\REPASO\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target Ej6_main"
+.PHONY : CMakeFiles/Ej6_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ej6_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion 3\REPASO\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ej6_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\falco\OneDrive\Escritorio\UNIVERSIDAD\Programacion 3\REPASO\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Ej6_main.dir/rule
+
+# Convenience name for target.
+Ej6_main: CMakeFiles/Ej6_main.dir/rule
+.PHONY : Ej6_main
+
+# clean rule for target.
+CMakeFiles/Ej6_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej6_main.dir\build.make CMakeFiles/Ej6_main.dir/clean
+.PHONY : CMakeFiles/Ej6_main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

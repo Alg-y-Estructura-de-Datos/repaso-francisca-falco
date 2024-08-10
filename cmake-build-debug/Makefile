@@ -180,6 +180,19 @@ Ej5_main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej5_main.dir\build.make CMakeFiles/Ej5_main.dir/build
 .PHONY : Ej5_main/fast
 
+#=============================================================================
+# Target rules for targets named Ej6_main
+
+# Build rule for target.
+Ej6_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ej6_main
+.PHONY : Ej6_main
+
+# fast build rule for target.
+Ej6_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej6_main.dir\build.make CMakeFiles/Ej6_main.dir/build
+.PHONY : Ej6_main/fast
+
 Ej1.obj: Ej1.cpp.obj
 .PHONY : Ej1.obj
 
@@ -300,6 +313,30 @@ Ej5_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej5_main.dir\build.make CMakeFiles/Ej5_main.dir/Ej5_main.cpp.s
 .PHONY : Ej5_main.cpp.s
 
+Ej6_main.obj: Ej6_main.cpp.obj
+.PHONY : Ej6_main.obj
+
+# target to build an object file
+Ej6_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej6_main.dir\build.make CMakeFiles/Ej6_main.dir/Ej6_main.cpp.obj
+.PHONY : Ej6_main.cpp.obj
+
+Ej6_main.i: Ej6_main.cpp.i
+.PHONY : Ej6_main.i
+
+# target to preprocess a source file
+Ej6_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej6_main.dir\build.make CMakeFiles/Ej6_main.dir/Ej6_main.cpp.i
+.PHONY : Ej6_main.cpp.i
+
+Ej6_main.s: Ej6_main.cpp.s
+.PHONY : Ej6_main.s
+
+# target to generate assembly for a file
+Ej6_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej6_main.dir\build.make CMakeFiles/Ej6_main.dir/Ej6_main.cpp.s
+.PHONY : Ej6_main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -313,6 +350,7 @@ help:
 	@echo ... Ej3
 	@echo ... Ej4
 	@echo ... Ej5_main
+	@echo ... Ej6_main
 	@echo ... Ej1.obj
 	@echo ... Ej1.i
 	@echo ... Ej1.s
@@ -328,6 +366,9 @@ help:
 	@echo ... Ej5_main.obj
 	@echo ... Ej5_main.i
 	@echo ... Ej5_main.s
+	@echo ... Ej6_main.obj
+	@echo ... Ej6_main.i
+	@echo ... Ej6_main.s
 .PHONY : help
 
 

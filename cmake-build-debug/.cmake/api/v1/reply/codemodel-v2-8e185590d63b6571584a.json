@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -77,6 +79,13 @@
 					"id" : "Ej5_main::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Ej5_main-Debug-f9af099c037929bce03e.json",
 					"name" : "Ej5_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej6_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej6_main-Debug-2263439efd6bde18dd97.json",
+					"name" : "Ej6_main",
 					"projectIndex" : 0
 				}
 			]
