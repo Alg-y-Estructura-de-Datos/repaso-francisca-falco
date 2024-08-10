@@ -167,6 +167,19 @@ Ej4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej4.dir\build.make CMakeFiles/Ej4.dir/build
 .PHONY : Ej4/fast
 
+#=============================================================================
+# Target rules for targets named Ej5_main
+
+# Build rule for target.
+Ej5_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ej5_main
+.PHONY : Ej5_main
+
+# fast build rule for target.
+Ej5_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej5_main.dir\build.make CMakeFiles/Ej5_main.dir/build
+.PHONY : Ej5_main/fast
+
 Ej1.obj: Ej1.cpp.obj
 .PHONY : Ej1.obj
 
@@ -263,6 +276,30 @@ Ej4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej4.dir\build.make CMakeFiles/Ej4.dir/Ej4.cpp.s
 .PHONY : Ej4.cpp.s
 
+Ej5_main.obj: Ej5_main.cpp.obj
+.PHONY : Ej5_main.obj
+
+# target to build an object file
+Ej5_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej5_main.dir\build.make CMakeFiles/Ej5_main.dir/Ej5_main.cpp.obj
+.PHONY : Ej5_main.cpp.obj
+
+Ej5_main.i: Ej5_main.cpp.i
+.PHONY : Ej5_main.i
+
+# target to preprocess a source file
+Ej5_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej5_main.dir\build.make CMakeFiles/Ej5_main.dir/Ej5_main.cpp.i
+.PHONY : Ej5_main.cpp.i
+
+Ej5_main.s: Ej5_main.cpp.s
+.PHONY : Ej5_main.s
+
+# target to generate assembly for a file
+Ej5_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ej5_main.dir\build.make CMakeFiles/Ej5_main.dir/Ej5_main.cpp.s
+.PHONY : Ej5_main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -275,6 +312,7 @@ help:
 	@echo ... Ej2
 	@echo ... Ej3
 	@echo ... Ej4
+	@echo ... Ej5_main
 	@echo ... Ej1.obj
 	@echo ... Ej1.i
 	@echo ... Ej1.s
@@ -287,6 +325,9 @@ help:
 	@echo ... Ej4.obj
 	@echo ... Ej4.i
 	@echo ... Ej4.s
+	@echo ... Ej5_main.obj
+	@echo ... Ej5_main.i
+	@echo ... Ej5_main.s
 .PHONY : help
 
 

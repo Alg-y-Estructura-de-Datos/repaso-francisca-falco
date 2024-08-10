@@ -201,6 +201,52 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Ej5_main">
+				<Option output="C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Ej5_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej5_main"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ej5_main/fast">
+				<Option output="C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Ej5_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ej5_main/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/cmake-build-debug"/>
 				<Option type="4"/>
@@ -222,6 +268,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/Calculadora.h">
+			<Option target="Ej5_main"/>
+		</Unit>
 		<Unit filename="C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/Ej1.cpp">
 			<Option target="Ej1"/>
 		</Unit>
@@ -233,6 +282,9 @@
 		</Unit>
 		<Unit filename="C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/Ej4.cpp">
 			<Option target="Ej4"/>
+		</Unit>
+		<Unit filename="C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/Ej5_main.cpp">
+			<Option target="Ej5_main"/>
 		</Unit>
 		<Unit filename="C:/Users/falco/OneDrive/Escritorio/UNIVERSIDAD/Programacion 3/REPASO/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

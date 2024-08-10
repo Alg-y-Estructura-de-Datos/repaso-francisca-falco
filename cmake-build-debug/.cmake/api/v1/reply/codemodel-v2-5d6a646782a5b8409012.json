@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -68,6 +70,13 @@
 					"id" : "Ej4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Ej4-Debug-51931cbc1e2e1d947b3d.json",
 					"name" : "Ej4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ej5_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ej5_main-Debug-f9af099c037929bce03e.json",
+					"name" : "Ej5_main",
 					"projectIndex" : 0
 				}
 			]
